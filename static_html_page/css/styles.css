@@ -1,0 +1,114 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:#ccc;
+}
+.wrapper{
+	width:980px;
+	height:auto;
+	background:skyblue;
+	margin:auto;
+}
+.header{
+	width:980px;
+	height:150px;
+	background:pink;
+	background-image: url(../images/header.png);
+	background-repeat:repeat-x;
+}
+.logo{
+	width:200px;
+	height:120px;
+	margin-left:20px;
+	margin-top:10px;
+	float:left;
+}
+.info{
+	width:114px;
+	height:50px;
+	margin-right:20px;
+	margin-top:50px;
+	float:right;
+}
+.container{
+	width:980px;
+	height:auto;
+	background:red;
+}
+.menu {
+	width: 980px;
+	height: 50px;
+	background: lavender;
+}
+.menu ul {
+	list-style-type: none;
+}
+.menu ul li {
+	display: inline;
+}
+.menu ul li a {
+	color: red;
+	text-decoration: none;
+	width: 196px;
+	float: left;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+.menu ul li a:hover {
+	color: yellow;
+	background: red;
+}
+.banner{
+	width:980px;
+	height:360px;
+	background:red;
+}
+.container{
+	width:980px;
+	height:auto;
+	background:red;
+}
+.main{
+	width:610px;
+	height:auto;
+	min-height: 1022px;
+	background:pink;
+	float:left;
+	padding:20px;
+}
+.sidebar{
+	width:280px;
+	height:auto;
+	background:lavender;
+	float:right;
+	padding:20px;
+}
+.footer{
+	width:980px;
+	height:50px;
+	background:#f0f;
+	text-align:center;
+}
+.clear{
+	clear:both;
+}
+.map{
+	width:260px;
+	height:400px;
+	border:10px solid white;
+	border-radius:7px;
+	margin-top:20px;
+}
+.txt{
+	width:260px;
+	height:400px;
+	border:10px solid white;
+	border-radius:7px;
+	margin-top:20px;
+	overflow:auto;
+	text-align:justify;
+	background:pink;
+}
