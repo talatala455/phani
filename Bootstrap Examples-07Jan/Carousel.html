@@ -1,0 +1,42 @@
+<html>
+<head>
+<title>Carousel</title>
+<link rel="stylesheet" href="css/bootstrap.css">
+<script src="https://code.jquery.com/jquery-1.11.0.js"></script>
+<script src="js/bootstrap.js"></script>
+</head>
+<body>
+<div class="container">
+	<div class="carousel slide" data-ride="carousel" id="ss" data-interval="1000">
+		<ol class="carousel-indicators">
+			<li data-target="#ss" data-slide-to="0" class="active"></li>
+			<li data-target="#ss" data-slide-to="1"></li>
+			<li data-target="#ss" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner">
+			<img src="images/corejava.png">
+			<div class="carousel-caption">
+				<h1>Core Java</h1>
+				<p>Content</p>
+			</div>
+		</div>
+		<div class="item">
+			<img src="images/hadoop.png">
+			<div class="carousel-caption">
+				<h1>Hadoop</h1>
+				<p>Content</p>
+			</div>
+		</div>
+		<div class="item">
+			<img src="images/jquery.png">
+			<div class="carousel-caption">
+				<h1>JQuery</h1>
+				<p>Content</p>
+			</div>
+		</div>
+	</div>
+	<a class="left carousel-control" href="#ss" data-slide="prev"><span class=""glypicon glyoicon-chevron-left></span></a>
+	<a class="right carousel-control" href="#ss" data-slide="next"><span class=""glypicon glyoicon-chevron-right></span></a>
+</div>
+</body>
+</html>
