@@ -1,0 +1,65 @@
+<html>
+<head>
+<title>static, absolute, relative, fixed</title>
+<style>
+	*{margin: 0px; padding: 0px;}
+	.b{
+		width:300px;
+		height:300px;
+		background:pink;
+		margin:130px;
+	}
+	.s{
+		width:300px;
+		height:100px;
+		background:red;
+		position:static;
+		left:20px;
+		top:40px;
+	}
+	.a{
+		width:300px;
+		height:100px;
+		background:yellow;
+		position:absolute;
+		left:10px;
+		top:20px;
+		z-index:5000;
+	}
+	.f{
+		width:300px;
+		height:100px;
+		background:green;
+		position:fixed;
+		left:30px;
+		top:40px;
+		z-index:1000;
+	}
+	.r{
+		width:100px;
+		height:100px;
+		background:blue;
+		position:relative;
+		left:10px;
+		top:20px;
+	}
+	.r1{
+		width:100px;
+		height:100px;
+		background:yellow;
+		position:relative;
+		left:10px;
+		top:20px;
+	}
+</style>
+</head>
+<body>
+<div class=b>
+	<div class="s">Static</div>
+	<div class="a">Absolute</div>
+	<div class="f">Fixed</div>
+	<div class="r">Relative</div>
+	<div class="r1">Relative</div>
+</div>
+</body>
+</html>

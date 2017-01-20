@@ -1,0 +1,12 @@
+	body #wrap p{
+		background: yellow;
+	}
+	#test{
+		background: red;
+	}
+	.item p{
+		background: orange;
+	}
+	p{
+		background: green !IMPORTANT;
+	}
